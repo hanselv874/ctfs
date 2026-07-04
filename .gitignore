@@ -59,10 +59,10 @@ __pycache__/
 *.py[cod]
 
 # Ghidra project artifacts (public repo safety)
-**/ghdra_proj/**
-!_template/ghdra_proj/README.md
+**/ghidra_proj/**
+!_template/ghidra_proj/README.md
 .ghidra/
 *.gpr
-*.rep/
+*.rep
 *.gzf
 *.gpr.lock
