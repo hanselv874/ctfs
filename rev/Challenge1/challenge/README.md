@@ -1,4 +1,18 @@
 # Challenge Files
 
-Place the provided challenge files here.
-Add a short prompt or reminder if the original challenge statement is needed for context.
+## Binary
+
+- `crackMe`
+
+## Prompt
+
+Run the binary and reverse the validation logic.
+
+## Quick start
+
+```bash
+chmod +x crackMe
+./crackMe
+```
+
+Document your findings in `../notes.md` and finalize in `../writeup.md`.

@@ -1,17 +1,28 @@
-# Writeup
+# Writeup - Challenge1
 
 ## Summary
 
-What does the challenge ask you to do?
+Describe what the binary asks for and what determines success/failure.
 
-## Approach
+## Recon
 
-Describe the main idea and the steps you followed.
+- Binary type and architecture:
+- Important strings found:
+- Notable protections/symbol info:
 
-## Solution
+## Static analysis
 
-Include the final commands, script output, or payload.
+- Key functions inspected:
+- Relevant addresses:
+- Validation logic (high level):
+
+## Dynamic checks
+
+- Test inputs used:
+- Observed outputs:
+- Final verification steps:
 
 ## Result
 
-Record the flag or final answer.
+- Final accepted input / flag:
+- One-paragraph takeaway:

@@ -1,10 +1,21 @@
-# Challenge Template
+# Challenge1
 
-Copy this folder into the correct category and rename it for your challenge.
+A simple reverse-engineering baseline challenge.
 
-## Standard layout
+## Goal
 
-- `challenge/` - original files, prompts, or supporting material
-- `solver/` - exploit or solve script placeholder
-- `notes.md` - rough working notes while solving
-- `writeup.md` - cleaned-up final explanation
+Analyze the provided binary in `challenge/crackMe` and document how input is validated.
+
+## Scope for this baseline
+
+- Use Ghidra (or your preferred RE tool) to inspect control flow.
+- Identify key functions and constants involved in the check logic.
+- Keep notes and reproducible steps in this folder.
+- Do not store Ghidra project database artifacts in git.
+
+## Layout
+
+- `challenge/` - challenge binary and minimal prompt context
+- `solver/` - helper script(s) for running/testing inputs
+- `notes.md` - working notes while analyzing
+- `writeup.md` - final clean writeup
