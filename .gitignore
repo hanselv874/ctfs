@@ -57,3 +57,11 @@ dkms.conf
 # Python bytecode/cache
 __pycache__/
 *.py[cod]
+
+# Ghidra project artifacts (public repo safety)
+**/ghdra_proj/**
+.ghidra/
+*.gpr
+*.rep/
+*.gzf
+*.gpr.lock
